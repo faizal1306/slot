@@ -1,5 +1,7 @@
 # Ex03 Time Table
-## Date:
+## Name : Mohamed Faizal M
+## Reg no : 24000006
+## Date: 19.10.2024
 
 ## AIM
 To write a html webpage page to display your slot timetable.
