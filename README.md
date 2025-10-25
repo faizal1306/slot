@@ -1,7 +1,7 @@
 # Ex03 Time Table
 ## Name : Mohamed Faizal M
-## Reg no : 24000006
-## Date: 19.10.2024
+## Reg no : 212223243002
+## Date:
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -27,74 +27,65 @@ Execute the program using runserver command.
 
 ## PROGRAM
 ```
-<html></html>
+
+<html>
 <head>
 <title>Slot Timetable</title>
-<style>
-	.free-slot{
-		background-color:bisque;
-	}
-</style>
 </head>
 <body>
 <center>
-<img src="C:\Users\admin\Pictures\Screenshots\Screenshot 2024-10-19 084741.png""height="100" width="540">
+<img src="C:\Users\admin\Desktop\Screenshot 2025-10-25 132437.png" height="100" width="500">
 </center>
 <br>
-<table align="center" width="540" cellspacing="2" cellpadding="4" border="4" border="5" bgcolor="aqua">
-<caption><b>SLOT TIMETABLE - MOHAMED FAIZAL (24000006)</b></caption>
+<table align="center" width="500" cellspacing="3" cellpadding="2" border="2" bgcolor="yellow">
+<caption><b>SLOT TIME TABLE - MOHAMED FAIZAL M (212223243002)</b></caption>
 <tr align="center">
-	<th bgcolor="yellow">Day/Time</th>
-	<th bgcolor="yellow">Monday</th>
-	<th bgcolor="yellow">Tuesday</th>
-	<th bgcolor="yellow">Wednesday</th>
-	<th bgcolor="yellow">Thursday</th>
-	<th bgcolor="yellow">Friday</th>
-    <th bgcolor="yellow">Saturday</th>
+<th bgcolor="cyan">Day/Time</th>
+<th bgcolor="cyan">Monday</th>
+<th bgcolor="cyan">Tuesday</th>
+<th bgcolor="cyan">Wednesday</th>
+<th bgcolor="cyan">Thursday</th>
+<th bgcolor="cyan">Friday</th>
 </tr>
 <tr align="center">
-	<th bgcolor="yellow">8-10</th>
-	<td>Training</td>
-	<td>Employement Enrichment Skills</td>
-	<td>Training</td>
-	<td>Company Specific</td>
-	<td>Training</td>
-    <td>Fundamentals of Web Application</td>
+<th bgcolor="pink">8-10</th>
+<td>FREE SLOT</td>
+<td>EXPLORATORY DATA ANAYSIS</td>
+<td>EXPLORATORY DATA ANALYSIS</td>
+<td>FREE SLOT</td>
+<td>FREE SLOT</td>
 </tr>
 <tr align="center">
-	<th bgcolor="yellow">10-12</th>
-	<td>Training</td>
-	<td>Training</td>
-	<td>Training</td>
-	<td>Fundamentals of Web Application</td>
-	<td>Training</td>
-    <td>Training</td>
+<th bgcolor="pink">10-12</th>
+<td>FREE SLOT</td>
+<td>INTRO TO ML</td>
+<td>FUNDAMENTALS OF WEB APPLICATION</td>
+<td>CLOUD COMPUTING</td>
+<td>COMPUTER ARCHITECTURE</td>
 </tr>
 <tr>
-	<th bgcolor="yellow">12-1</th>
-	<td colspan="5" align="center">L U N C H   B R E A K</td>
+<th bgcolor="pink">12-1</th>
+<td colspan="6" align="center">L U N C H    B R E A K </td>
 </tr>
 <tr align="center">
-	<th bgcolor="yellow">1-3</th>
-	<td>cyber law and compliance</td>
-	<td>Software Project Management</td>
-	<td>Mentor Meet</td>
-	<td>cyber law and compliance</td>
-	<td>training</td>
-    <td>Training</td>
+<th bgcolor="pink">1-3</th>
+<td>FUNDAMENTALS OF WEB APPLICATIONS</td>
+<td>FREE SLOT</td>
+<td>MENTOR MEET</td>
+<td>FREE SLOT</td>
+<td>CLOUD COMPUTING</td>
 </tr>
 <tr align="center">
-	<th bgcolor="yellow">3-5</th>
-	<td>Fundamentals of Web Application</td>
-	<td class = 'free-slot'>Free</td>
-	<td class = 'free-slot'>Free</td>
-	<td>Software Project Management</td>
-	<td class = 'free-slot'>Free</td>
-    <td class = 'free-slot'>Free</td>
+<th bgcolor="pink">3-5</th>
+<td>FREE SLOT</td>
+<td>PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
+<td>INTRO TO ML</td>
+<td>COMPILER DESIGN</td>
+<td>COMPILER DESIGN</td>
 </tr>
 </table>
-</br>
-<table align="center" cellspacing="2" cellpadding="4" border="2">
+<br>
+<table align="center" cellspacing="2" cellpadding="2" border="2">
 <tr align="center">
 <th>S. No.</th>
 <th>Subject Code</th>
@@ -102,41 +93,49 @@ Execute the program using runserver command.
 </tr>
 <tr>
 <td align="center">1.</td>
-<td align="center">19EY712</td>
-<td>Employement Enrichment Skills</td>
+<td align="center">19AI414</td>
+<td align ="center">FUNDAMENTALS OF WEB APPLICATION</font></b></td>
 </tr>
 <tr>
 <td align="center">2.</td>
-<td align="center">19CS504</td>
-<td>Software Project Management</td>
+<td align="center">19AI555</td>
+<td align="center">EXPLORATORY DATA ANALYSIS</td>
+<td></td>
 </tr>
 <tr>
 <td align="center">3.</td>
-<td align="center">19EY706</td>
-<td>Company Specific</td>
+<td align="center">19AI541</td>
+<td align="center">CLOUD COMPUTING</td>
 </tr>
 <tr>
 <td align="center">4.</td>
-<td align="center">19CS418</td>
-<td>Cyber law and compliance</td>
+<td align="center">19AI410</td>
+<td align="center">INTRO TO ML</td>
 </tr>
 <tr>
 <td align="center">5.</td>
-<td align="center">ECA-M</td>
-<td>Mentor Meet</td>
+<td align="center">19CS305</td>
+<td align="center">COMPUTER ARCHITECTURE</td>
 </tr>
 <tr>
 <td align="center">6.</td>
-<td align="center">19AI414</td>
-<td>Fundamentals of Web Application</td>
+<td align="center">19CS409</td>
+<td align="center">COMPILER DESIGN</td>
+</tr>
+<tr>
+<td align="center">7.</td>
+<td align="center">19CY205</td>
+<td align="center">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
 </tr>
 </table>
 </body>
 </html>
+
 ```
 
 ## OUTPUT
-![Screenshot 2024-10-19 085104](https://github.com/user-attachments/assets/162bd6a2-000b-4468-a494-09aa51a7ee7a)
+<img width="1912" height="1015" alt="Screenshot 2025-10-25 132658" src="https://github.com/user-attachments/assets/35d07546-5c17-47aa-a0aa-d5b7ee8277be" />
+
 
 
 ## RESULT
